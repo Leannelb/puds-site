@@ -7,6 +7,8 @@ import { HomeModule } from './components/home/home.module';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { MainModule } from './components/main/main.module';
 import {  NO_ERRORS_SCHEMA} from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatModulesModule } from './modules/mat-modules/mat-modules.module';
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import {  NO_ERRORS_SCHEMA} from '@angular/core';
     AppRoutingModule,
     HomeModule,
     FlexLayoutModule,
-    MainModule
+    MainModule,
+   MatModulesModule,
     ],
     exports: [
     ],
